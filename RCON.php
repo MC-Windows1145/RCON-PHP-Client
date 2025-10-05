@@ -460,4 +460,5 @@ try {
 } catch (Exception $e) {
     echo "\033[1;31m致命错误: " . $e->getMessage() . "\033[0m\n";
     exit(1);
+
 }
